@@ -14,6 +14,7 @@ comparisons across models
 [![image](https://img.shields.io/conda/vn/conda-forge/geemap.svg)](https://anaconda.org/conda-forge/GRFlood)
 [![Downloads](https://static.pepy.tech/personalized-badge/grflood?period=month&units=international_system&left_color=yellow&right_color=orange&left_text=Downloads)](https://pepy.tech/project/grflood)
 [![image](https://github.com/giswqs/geemap/workflows/build/badge.svg)](https://github.com/callback21/GRFlood)
+[![image](https://github.com/giswqs/geemap/workflows/docs/badge.svg)](https://callback21.github.io/GRFlood-docs/)
 
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
