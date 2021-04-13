@@ -11,7 +11,7 @@ comparisons across models
 
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Wcxd9iBJChn7gJgV--Vc03gSdljZbp2b?usp=sharing)
 [![image](https://img.shields.io/pypi/v/geemap.svg)](https://pypi.org/project/GRFlood/)
-[![image](https://img.shields.io/conda/vn/conda-forge/geemap.svg)](https://anaconda.org/conda-forge/geemap)
+[![image](https://img.shields.io/conda/vn/conda-forge/geemap.svg)](https://anaconda.org/conda-forge/GRFlood)
 [![Downloads](https://static.pepy.tech/personalized-badge/grflood?period=month&units=international_system&left_color=yellow&right_color=orange&left_text=Downloads)](https://pepy.tech/project/grflood)
 [![image](https://github.com/giswqs/geemap/workflows/build/badge.svg)](https://github.com/callback21/GRFlood)
 
