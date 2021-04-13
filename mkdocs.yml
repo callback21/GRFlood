@@ -1,0 +1,16 @@
+site_name: GRFlood 
+extra.logo : img/Flood.ico
+extra.version : 1.0.0
+
+repo_url: https://github.com/callback21/GRFlood
+
+
+nav:
+    - Home: index.md
+    - Installation: Installation.md
+    - Usage : Usage.md
+    - Get Started : Get_Started.md
+    - About : about.md
+theme : 
+      name : windmill-dark
+      favicon: img/Flood.png

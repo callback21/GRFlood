@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: GRFlood
+Version: 1.0.0
+Summary: A small package for flood forecasting
+Home-page: https://github.com/pypa/sampleproject
+Author: AMIRA AYOUB
+Author-email: ayoub.amira1998@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Description: 
+        Train several popular statistical models to predict regional flooding,and compare the performance of each model.
+        We will use the Root Mean Square Error(RMSE) metric to evaluate each model’s performance, and then normalize each of 
+        these statistics by dividing each of them by the difference of the max and min training values in order to make performance
+        comparisons across models
+        
+        <h1>Installation</h1>
+        
+        
+        
+        <h2>Install from PyPI</h2>
+        
+        <br>
+        
+        `GRFlood` is available on PyPI. To install `GRFlood`, run this command in your terminal:
+        
+        ```sh
+        pip install GRFlood
+        ```
+        <h2>Install from conda-forge</h2>
+        
+        
+        <br>
+        
+        `GRFlood` is also available on conda-forge. If you have Anaconda or Miniconda installed on your computer, you can create a conda Python environment to install `GRFlood`:
+        
+        ```sh
+        conda install -c defaults -c conda-forge GRFlood
+        ```
+        <h2>Install from GitHub</h2> 
+        
+        <br>
+        To install the development version from GitHub using Git, run the following command in your terminal:
+        
+        ```sh
+        pip install git+https://github.com/callback21/GRFlood
+        ```
+        <h2>Colaboratory</h2> 
+        
+        <br>
+        Colaboratory lets you connect to a local runtime using Jupyter. This allows you to execute code on your local hardware and have access to your local file system.
+        
+        **Step 1: Install Jupyter**<br>
+        Install [Jupyter](https://jupyter.org/install) on your local machine.
+        
+        **Step 2: Install and enable the jupyter_http_over_ws jupyter extension (one-off)** <br>
+        The ```jupyter_http_over_ws``` extension is authored by the Colaboratory team and available on [GitHub](https://github.com/googlecolab/jupyter_http_over_ws).
+        
+        ```sh
+        pip install jupyter_http_over_ws
+        jupyter serverextension enable --py jupyter_http_over_ws
+        ```
+        **Step 3: Start server and authenticate**<br>
+        New notebook servers are started normally, though you will need to set a flag to explicitly trust WebSocket connections from the Colaboratory frontend.
+        
+        ```sh
+        jupyter notebook \
+          --NotebookApp.allow_origin='https://colab.research.google.com' \
+          --port=8888 \
+          --NotebookApp.port_retries=0
+        ```   
+        Once the server has started, it will print a message with the initial backend URL used for authentication. Make a copy of this URL as you'll need to provide this in the next step.
+        
+        **Step 4: Connect to the local runtime**<br>
+        In Colaboratory, click the 'Connect' button and select 'Connect to local runtime…'. Enter the URL from the previous step in the dialogue that appears and click the 'Connect' button. After this, you should now be connected to your local runtime.
+        
+        <h2>Upgrade GRFlood</h2>
+        <br>
+        
+        If you have installed `GRFlood` before and want to upgrade to the latest version, you can run the following command in your terminal:
+        
+        ```sh
+        pip install -U GRFlood
+        ```
+        If you use conda, you can update `GRFlood` to the latest version by running the following command in your terminal:
+        
+        ```sh
+        conda update GRFlood
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
