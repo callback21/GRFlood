@@ -20,6 +20,7 @@ comparisons across models
 **A Python package for flood forecasting**
 
 -   GitHub repo: <https://github.com/callback21/GRFlood>
+-   Documentation :[GRFlood-docs](https://callback21.github.io/GRFlood-docs/)
 -   PyPI: <https://pypi.org/project/GRFlood>
 -   Conda-forge: <https://anaconda.org/conda-forge/GRFlood>
 -   Free software: [MIT license](https://opensource.org/licenses/MIT)
